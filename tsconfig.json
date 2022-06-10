@@ -1,0 +1,19 @@
+{
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "noImplicitAny": true,
+        "declaration": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "watch": false,
+        "lib": ["es2021"],
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "strict": true
+    }
+}

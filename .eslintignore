@@ -1,0 +1,7 @@
+node_modules
+build
+dist
+coverage
+deploy
+jest.config.js
+.DS_Store
